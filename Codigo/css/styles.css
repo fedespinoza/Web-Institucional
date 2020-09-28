@@ -1,0 +1,316 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav button{
+    border: none;
+    background-color: #f25460;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+
+nav button:hover{
+    background-color: #ff0015;
+    transition: 0.4s ease all;
+}
+
+nav input{
+    border-radius: 3px;
+}
+
+header img{
+    width: 100%;
+    height: 80vh;
+}
+
+header h2{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    color: #fff;
+    font-size: 70px;
+}
+
+section.primeraSeccion{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sedes{
+    width: 50%;
+}
+
+.sedes h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.sedes p{
+    padding: 20px 30px 0 30px;
+}
+
+.maps{
+    width: 50%;
+}
+
+.maps img{
+    width: 98%;
+}
+
+section.segundaSection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.cursos,
+.tecnicaturas,
+.grado{
+    width: 280px;
+    background-color: #ff8e8e;
+    text-align: center;
+    height: 300px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.cursos h3,
+.tecnicaturas h3,
+.grado h3{
+    background-color: rgb(85, 85, 85);
+    padding: 10px 0;
+    color: #fff;
+}
+
+.cursos p,
+.tecnicaturas p,
+.grado p{
+    width: 250px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.refCarreras{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.refCarreras:hover{
+    color: #c40010;
+}
+
+footer{
+    background-color: #000;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+}
+
+footer p{
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p i{
+    color: #c40010;
+}
+
+/*********CARRERAS*********/
+
+.seccionCursos{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.seccionCursos img{
+    opacity: 0;
+}
+
+.tituloCarreras h2{
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ 
+th {
+    background: #000000;
+    color: #fff;
+ }
+
+.seccionTecnicaturas{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.seccionTecnicaturas h2{
+    padding-top: 40px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ 
+th {
+    background: #000000;
+    color: #fff;
+ }
+
+.seccionGrado{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.seccionGrado h2{
+    padding-top: 40px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ 
+ th {
+    background: #000000;
+    color: #fff;
+ }
+
+ /******NOSOTROS******/
+
+ section.institucional{
+     display: flex;
+     width: 80%;
+     margin: 60px auto;
+     margin-bottom: 87px;
+ }
+
+ section.institucional video{
+    width: 600vw;
+    height: 50vh;
+}
+
+ /******CONTACTO******/
+
+ .titulo-contacto{
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .formulario{
+    width: 600px;
+    margin: 0 auto;
+ }
+ form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .nomyape{
+     margin-top: 10px;
+ }
+
+.nomyape input{
+     width: 220px;
+     margin: 0 10px;
+ }
+
+.emaynum{
+    margin-top: 10px;
+}
+
+.emaynum input{
+    width: 220px;
+    margin: 0 10px;
+}
+
+ select{
+     width: 475px;
+     margin-top: 10px;
+ }
+
+ textarea{
+     width: 470px;
+     margin-top: 10px;
+ }
+
+button.btnForm{
+    border: none;
+    background-color: #f25460;
+    padding: 4px 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s ease all;
+    margin-top: 15px;
+}
+
+button.btnForm:hover{
+    background-color: #ff0015;
+    transition: 0.4s ease all;
+}
+
+
+
