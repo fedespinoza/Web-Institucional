@@ -7,6 +7,9 @@
     <title>Instituto Web</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/560b7fc6f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -37,7 +40,108 @@
         <h2>Carreras en nuestro Instituto</h2>
     </header>
 
-    <div class="seccionCursos">
+    <div class="container">
+        <h2 class="text-center mt-5">Cursos</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Centro</p>
+                <p>Curso JavaScript</p>
+                <p>Curso HTML5 y CSS3</p>
+                <p>Curso Bootstrap</p>
+                <p>Curso PHP</p>
+                <p>Curso React</p>
+                <p>Curso Base de Datos</p>
+            </div>
+
+
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Córdoba</p>
+                <p>Curso HTML5 y CSS3</p>
+                <p>Curso Angular</p>
+                <p>Curso VUE</p>
+                <p>Curso JavaScript avanzado</p>
+                <p>Curso Angular</p>
+                <p>Curso JavaScript</p>
+            </div>
+
+            <div class="col-12 col-sm-3 border text-center">
+                <p class="titular border-bottom pb-3 pt-3">Virtual</p>
+                <p>Curso React</p>
+                <p>Curso HTML5 y CSS3</p>
+                <p>Curso Bootstrap</p>
+                <p>Curso Laravel</p>
+                <p>Curso VUE</p>
+                <p>Curso Base de Datos</p>
+            </div>
+        </div>
+
+
+        <h2 class="text-center mt-5">Tecnicaturas</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Centro</p>
+                <p>Tec. en programación</p>
+                <p>Tec. en diseño</p>
+                <p>Tec. en programación</p>
+                <p>Tec. en Sistemas Informáticos</p>
+                <p>Tec. en Sonido</p>
+                <p>Tec. en Telecomunicaciones</p>
+            </div>
+
+
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Córdoba</p>
+                <p>Tec. en Administración</p>
+                <p>Tec. en Sonido</p>
+                <p>Tec. en Telecomunicaciones</p>
+                <p>Tec. en Sistemas Informáticos</p>
+                <p>Tec. en diseño</p>
+                <p>Tec. en programación</p>
+            </div>
+
+            <div class="col-12 col-sm-3 border text-center">
+                <p class="titular border-bottom pb-3 pt-3">Virtual</p>
+                <p>Tec. en Sonido</p>
+                <p>Tec. en Sistemas Informáticos</p>
+                <p>Tec. en Administración</p>
+                <p>Tec. en diseño</p>
+                <p>Tec. en programación</p>
+                <p>Tec. en Telecomunicaciones</p>
+            </div>
+        </div>
+
+
+        <h2 class="text-center mt-5">Carreras de grado</h2>
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Centro</p>
+                <p>Ingeniero en Sistemas</p>
+                <p>Ingeniero en Electrónica</p>
+                <p>Ingeniero en Informatica</p>
+            </div>
+
+
+            <div class="col-6 col-sm-3 border">
+                <p class="titular border-bottom pb-3 pt-3">Sede Córdoba</p>
+                <p>Ingeniero Industrial</p>
+                <p>Ingeniero en Informatica</p>
+                <p>Ingeniero en Sistemas</p>
+            </div>
+
+            <div class="col-12 col-sm-3 border text-center">
+                <p class="titular border-bottom pb-3 pt-3">Virtual</p>
+                <p>Ingeniero en Informatica</p>
+                <p>Ingeniero en Sistemas</p>
+                <p>Ingeniero Industrial</p>
+            </div>
+        </div>
+    </div>
+    <!--Container-->
+
+
+
+
+    <!--<div class="seccionCursos">
         <h2>Cursos</h2>
         <div class="carrerasCursos">
             <table class="tabla1">
@@ -144,15 +248,24 @@
                 </tr>
             </table>
         </div>
-    </div>
+    </div> -->
 
 
 
-    <footer>
+    <footer class="mt-5">
         <p>Informes y consultas 0810-321-45468 | Sitio realizado por <i class="fab fa-canadian-maple-leaf"></i> Federico
             Espinoza <i class="fab fa-canadian-maple-leaf"></i> &copy; 2020 </p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

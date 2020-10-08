@@ -237,6 +237,10 @@ table {
     color: #fff;
  }
 
+ .titular{
+     font-weight: bold;
+ }
+
  /******NOSOTROS******/
 
  section.institucional{
